@@ -1,0 +1,7 @@
+<templateSet group="user">
+  <template name="ifElse" value="if(){&#10;          &#10;        } else {&#10;          &#10;        }" description="If Else Statement" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

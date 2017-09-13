@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="CSScomb" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/Projects/ui/elevation/node_modules/csscomb/bin/csscomb" />
+      <option name="PARAMETERS" value="-t $FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+</toolSet>

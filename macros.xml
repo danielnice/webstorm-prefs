@@ -1,0 +1,9 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="delete" />
+    <macro name="Split Files">
+      <action id="MoveTabRight" />
+      <action id="MoveTabRight" />
+    </macro>
+  </component>
+</application>

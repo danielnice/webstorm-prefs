@@ -1,0 +1,12 @@
+<templateSet group="JavaScript">
+  <template name="loopArray" value="var len = ARRAY-HERE;&#10;for(var i = 0; i &lt; len; i++){&#10;        &#10;}" description="Loop over an array" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="thisFn" value="this.$&lt;function name&gt;$ = function(){&#10;&#10;    };" description="Simple this function for service" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

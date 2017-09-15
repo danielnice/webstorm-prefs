@@ -1,4 +1,4 @@
-<toolSet name="External Tools">
+<toolSet name="Format">
   <tool name="CSScomb" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$USER_HOME$/Projects/ui/elevation/node_modules/csscomb/bin/csscomb" />

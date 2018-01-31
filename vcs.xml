@@ -6,9 +6,13 @@
           <option name="url" value="git@gitlab.spectrumxg.com:prototyping/spectrum-sports.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@den1-gitlab1.singularity.cx:frontend/elevation.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/Charter Projects/WebStorm/spectrum-sports-test" />
+    <option name="cloneParentDir" value="$USER_HOME$/Projects/ui" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="MIGRATED" value="true" />

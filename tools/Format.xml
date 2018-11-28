@@ -1,9 +1,9 @@
 <toolSet name="Format">
   <tool name="Stylelint Fix" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="$ProjectFileDir$/node_modules/stylelint/bin/stylelint.js" />
+      <option name="COMMAND" value="$ProjectFileDir$/elevation/node_modules/stylelint/bin/stylelint.js" />
       <option name="PARAMETERS" value="&quot;$FilePath$&quot; --fix" />
-      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/node_modules/stylelint/bin" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/elevation/node_modules/stylelint/bin" />
     </exec>
   </tool>
 </toolSet>

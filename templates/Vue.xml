@@ -1,0 +1,12 @@
+<templateSet group="Vue">
+  <template name="Log Color" value="this.$log.debug('%cMessage', objToStr({ color: 'Green' }));" description="(Log Level implementation)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
+    </context>
+  </template>
+  <template name="Log" value="this.$log.debug('');" description="(Log Level implementation)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -36,10 +36,10 @@
   <action id="Tool_External Tools_CSScomb">
     <keyboard-shortcut first-keystroke="shift ctrl meta c" />
   </action>
-  <action id="Tool_Format_Stylelint">
-    <keyboard-shortcut first-keystroke="meta alt semicolon" />
+  <action id="Tool_Format_NPM Lint">
+    <keyboard-shortcut first-keystroke="shift meta alt semicolon" />
   </action>
-  <action id="Tool_Format_Stylelint Fix">
+  <action id="Tool_Format_NPM Lint:CSS">
     <keyboard-shortcut first-keystroke="meta alt semicolon" />
   </action>
   <action id="Vcs.Push">

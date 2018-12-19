@@ -16,4 +16,5 @@
       <option name="Vue" value="true" />
     </context>
   </template>
+  <template name="directive" value="import log from 'loglevel';&#10;&#10;export default {&#10;  id: 'tooltip', definition: {&#10;    bind: function(el, binding) {&#10;      log.debug('Bound', el, binding);&#10;    },&#10;    inserted: function(el, binding, vnode, oldVnode) {&#10;      log.debug('Inserted', el, binding, vnode, oldVnode);&#10;    },&#10;    update: function (el, binding) {&#10;      log.debug('Updated', el, binding);&#10;    },&#10;    componentUpdated: function (el, binding) {&#10;      log.debug('Component Updated', el, binding);&#10;    },&#10;    unbind: function(el, binding) {&#10;      log.debug('Un-Bound', el, binding);&#10;    }&#10;  }&#10;};" description="Global directive template" toReformat="false" toShortenFQNames="true" />
 </templateSet>

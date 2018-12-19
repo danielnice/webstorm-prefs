@@ -1,12 +1,19 @@
 <templateSet group="Vue">
-  <template name="Log Color" value="this.$log.debug('%cMessage', objToStr({ color: 'Green' }));" description="(Log Level implementation)" toReformat="false" toShortenFQNames="true">
+  <template name="logColor" value="this.$log.debug('%c', objToStr({ color: 'Green' }));" description="(Log Level implementation)" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
     </context>
   </template>
-  <template name="Log" value="this.$log.debug('');" description="(Log Level implementation)" toReformat="false" toShortenFQNames="true">
+  <template name="log" value="this.$log.debug();" description="(Log Level implementation)" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
+    </context>
+  </template>
+  <template name="getCSSVariable" value="getComputedStyle(this.$el).getPropertyValue('')" description="Returns the value of a computed CSS variable/property" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="false" />
+      <option name="VUE_TEMPLATE" value="false" />
+      <option name="Vue" value="true" />
     </context>
   </template>
 </templateSet>

@@ -1,12 +1,20 @@
 <templateSet group="Vue">
-  <template name="Log Color" value="this.$log.debug('%cMessage', objToStr({ color: 'Green' }));" description="(Log Level implementation)" toReformat="false" toShortenFQNames="true">
+  <template name="logColor" value="this.$log.debug('%c', objToStr({ color: 'Green' }));" description="(Log Level implementation)" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
     </context>
   </template>
-  <template name="Log" value="this.$log.debug('');" description="(Log Level implementation)" toReformat="false" toShortenFQNames="true">
+  <template name="log" value="this.$log.debug();" description="(Log Level implementation)" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
     </context>
   </template>
+  <template name="getCSSVariable" value="getComputedStyle(this.$el).getPropertyValue('')" description="Returns the value of a computed CSS variable/property" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="false" />
+      <option name="VUE_TEMPLATE" value="false" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="directive" value="import log from 'loglevel';&#10;&#10;export default {&#10;  id: 'tooltip', definition: {&#10;    bind: function(el, binding) {&#10;      log.debug('Bound', el, binding);&#10;    },&#10;    inserted: function(el, binding, vnode, oldVnode) {&#10;      log.debug('Inserted', el, binding, vnode, oldVnode);&#10;    },&#10;    update: function (el, binding) {&#10;      log.debug('Updated', el, binding);&#10;    },&#10;    componentUpdated: function (el, binding) {&#10;      log.debug('Component Updated', el, binding);&#10;    },&#10;    unbind: function(el, binding) {&#10;      log.debug('Un-Bound', el, binding);&#10;    }&#10;  }&#10;};" description="Global directive template" toReformat="false" toShortenFQNames="true" />
 </templateSet>

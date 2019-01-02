@@ -10,12 +10,15 @@
           <option name="url" value="git@den1-gitlab1.singularity.cx:frontend/elevation.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.com" />
+          <option name="userName" value="danielcnice" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Projects" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="SHOW_TAG_NAMES" value="true" />
-    <option name="MIGRATED" value="true" />
   </component>
 </application>

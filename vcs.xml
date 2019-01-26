@@ -14,6 +14,10 @@
           <option name="url" value="http://gitlab.com" />
           <option name="userName" value="danielcnice" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@gitlab.com:tool-tech/website.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Projects" />
